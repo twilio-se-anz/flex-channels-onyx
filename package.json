@@ -1,0 +1,25 @@
+{
+  "name": "flex-channels-onyx",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@twilio-paste/core": "^15.3.0",
+    "@twilio-paste/icons": "^9.3.0",
+    "@twilio/flex-plugin-scripts": "5.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-emotion": "9.2.12"
+  },
+  "devDependencies": {
+    "@twilio-labs/svg-to-react": "^2.1.1",
+    "@twilio/flex-ui": "2.0.0-beta.1",
+    "@types/uuid": "^8.3.4",
+    "file-loader": "^6.2.0",
+    "react-test-renderer": "17.0.2",
+    "svg-url-loader": "^8.0.0",
+    "typescript": "^4"
+  }
+}
