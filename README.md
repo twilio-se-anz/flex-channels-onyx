@@ -1,4 +1,21 @@
-# Your custom Twilio Flex Plugin
+# Flex demo components
+This project is a collection of snippets to show how to use Flex custom components
+
+It's a work in progress, check back for updates
+
+
+
+| Component Description           | Location                                                                                          |
+| ------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Plugin with Paste customisation | [FlexChannelsOnyxPlugin.tsx](/src/FlexChannelsOnyxPlugin.tsx)                                     |
+| Custom channel                  | [MortgageApplicationChannel.tsx](/src/channel/MortgageApplication/MortgageApplicationChannel.tsx) |
+| Custom task channel panel       | [MortgageApplicationInfo.tsx](/src/channel/MortgageApplication/MortgageApplicationInfo.tsx)       |
+| Banner                          | [Banner.tsx](src/components/Banner.tsx)                                                           |
+| Customer info                   | [FauxCustomerInfo.tsx](/src/components/FauxCustomerInfo.tsx)                                      |
+| Panel 2 IFrame                  | [Frame.tsx](/src/components/Frame.tsx)                                                            |
+
+
+## Plugin configuration
 
 Twilio Flex Plugins allow you to customize the appearance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
 
