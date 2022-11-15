@@ -19,7 +19,11 @@ const FauxMortgageApplication = () => {
           style={{ textAlign: "center" }}
         >
           <Flex hAlignContent="center" vertical>
-            <img src={"/images/rocket.svg"} />
+            {/* <img src={"/images/rocket.svg"} /> */}
+            <img
+              src="https://indigo-fly-3476.twil.io/assets/rocket.svg"
+              alt="Rocket"
+            />
           </Flex>
           <Heading as="h4" variant="heading40">
             Mortgage Application

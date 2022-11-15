@@ -1,11 +1,8 @@
-import React from "react";
 import * as Flex from "@twilio/flex-ui";
 import { FlexPlugin } from "@twilio/flex-plugin";
 import applicationChannel from "./channel/MortgageApplication/MortgageApplicationChannel";
 import creditCardFraudChannel from "./channel/CreditCardFraud/CreditCardFraudChannel";
 import { CustomizationProvider } from "@twilio-paste/core/customization";
-
-import Panel from "./components/Panel";
 
 const PLUGIN_NAME = "FlexChannelsOnyxPlugin";
 
@@ -30,10 +27,5 @@ export default class FlexChannelsOnyxPlugin extends FlexPlugin {
     // Add custom channels
     Flex.TaskChannels.register(applicationChannel, false);
     Flex.TaskChannels.register(creditCardFraudChannel, false);
-
-    const rightPanel = <Panel key="panel-replacement" />;
-
-    // //This replaces "CRM Container" or "Panel2" with our own custom panel that we use to switch between screen pops
-    flex.AgentDesktopView.Panel2.Content.replace(rightPanel, { sortOrder: -1 });
   }
 }
